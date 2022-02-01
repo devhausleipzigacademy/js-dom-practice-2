@@ -68,7 +68,7 @@ for(let i = 0; i < blogPosts.length; i++){
     const { title, subtitle, author, contentBlocks } = currentBlogPost;
     const newBlogElement = document.createElement('li');
 
-    newBlogElement.innerHTML = `<div class="blog-post"><h2>${title}</h2> <h3><strong>${subtitle}</strong></h3> <h4>Written by ${author}</h4><div>` + processContentBlocks(contentBlocks)
+    newBlogElement.innerHTML = `<div class="blog-post"><h2 style="color: #A8A8FF;">${title}</h2> <h3 style="color: #7575FF;"><strong>${subtitle}</strong></h3> <h4>Written by ${author}</h4><div>` + processContentBlocks(contentBlocks)
 
     blogPostElements.push(newBlogElement)
 }
@@ -76,7 +76,7 @@ for(let i = 0; i < blogPosts.length; i++){
 // get UL element from HTML page
 const blogULElement = document.getElementById('blog-list')
 
-// add blog post elements as children to UL element
+// style elements and add blog post elements as children to UL element
 for(let i = 0; i < blogPostElements.length; i++){
     blogPostElements[i].style.cssText = `
         display: flex;
