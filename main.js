@@ -1,6 +1,6 @@
 const personObject = {
     "personName": "Franz Wollang",
-    "personEmail": "franz@example-email.com"
+    "personEmail": "franz@example-email.com",
 }
 
 const { personName, personEmail } = personObject; // destructuring assignment
@@ -74,7 +74,7 @@ for(let i = 0; i < blogPosts.length; i++){
 }
 
 // get UL element from HTML page
-const blogULElement = document.getElementById('blog-list')
+const blogULElement = document.querySelector('#blog-list')
 
 // style elements and add blog post elements as children to UL element
 for(let i = 0; i < blogPostElements.length; i++){
