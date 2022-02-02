@@ -11,7 +11,7 @@ Open the index.html file in your browser and open the JavaScript console: `Cmd+A
 - Then refactor the site so the street address is not static and written in the HTML directly, instead add your own street address to the person data object and then figure out how to add it to the website dynamically using JavaScript.
 
 ### Explore the DOM API further
-Use this example website, along with what you saw in the js-dom-practice-1 repo, to modify your own website.
+Use this example website, along with what you saw in the [js-dom-practice-1 repo](https://github.com/devhausleipzig/js-dom-practice-1), to modify your own website.
 
 Some suggestions:
 - Add a button that creates a new HTML element when clicked
