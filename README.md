@@ -8,7 +8,7 @@ Open the index.html file in your browser and open the JavaScript console: `Cmd+A
 
 ### Warm-up
 - Swap out the name and email address for your own name and email address.
-- Then refactor the site so the address is not static and written in the HTML directly, instead add your address to the person data object and then figure out how to add the address to the website dynamically using JavaScript.
+- Then refactor the site so the street address is not static and written in the HTML directly, instead add your own street address to the person data object and then figure out how to add it to the website dynamically using JavaScript.
 
 ### Explore the DOM API further
 Use this example website, along with what you saw in the js-dom-practice-1 repo, to modify your own website.
