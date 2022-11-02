@@ -4,11 +4,11 @@ Clone this repository and open it in Visual Studio Code.
 
 Open the index.html file in your browser and open the JavaScript console: `Cmd+Alt+J` or `Ctrl+Alt+J`. You can also find the JavaScript console via the dev tools by hitting the `F12` button.
 
-## Warm-up
+## Find and Seek
 - Swap out the name and email address for your own name and email address.
 - Then refactor the site so the street address is not static and written in the HTML directly, instead add your own street address to the person data object and then figure out how to add it to the website dynamically using JavaScript.
 
-## Explore the DOM API further
+## OPTIONAL: Explore the DOM API further
 Use this example website, along with what you saw in the [js-dom-practice-1 repo](https://github.com/devhausleipzig/js-dom-practice-1), to modify your own website.
 
 Some suggestions:
